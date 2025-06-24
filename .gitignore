@@ -1,0 +1,7 @@
+# Ignore environment files and API keys
+.env
+.env.*
+apiKey.js
+apikey.js
+config.js
+*.env
