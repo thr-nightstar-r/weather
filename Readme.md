@@ -24,8 +24,8 @@ A simple and modern weather application that allows users to search for the curr
 3. Make sure you have an active internet connection for API requests.
 
 ## Screenshots
-![Weather App Screenshot](images/clear.png)
-
+![Weather App Screenshot](images/image.png)
+![Weather App Screenshot](images/screenshot.png)
 ---
 
 Feel free to customize and enhance this project!
