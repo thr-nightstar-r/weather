@@ -25,7 +25,7 @@ A simple and modern weather application that allows users to search for the curr
 
 ## Screenshots
 ![Weather App Screenshot](images/image.png)
-![Weather App Screenshot](images/screenshot.png)
+![Weather App Screenshot](images/Screenshot.png)
 ---
 
 Feel free to customize and enhance this project!
