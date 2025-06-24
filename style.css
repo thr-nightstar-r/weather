@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+}
+body {
+  background-color: #222;
+}
+
+h1{
+    color: #ebfffc;
+    margin:0;
+    padding: 10px 0;
+    padding-bottom: 10px;
+    font: bold 
+}
+
+.card {
+  width: 100%;
+  max-width: 500px;
+  background: linear-gradient(135deg, rgb(40, 48, 75), rgb(138, 104, 84));
+  color: #fff;
+  margin: 100px auto 0;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.search {
+  width: 100%;
+  transition: all 1s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search input {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  color: #555;
+  padding: 10px 25px;
+  height: 60px;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 16px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+button {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  transition: transform 0.1s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+
+}
+button:active{
+    transform: scale(0.9);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.search button img {
+  width: 16px;
+}
+
+
+.Weather-icon img {
+  align-items: center;
+  width: 170px;
+  margin-top: 30px;
+}
+
+.Weather-icon h1 {
+  font-size: 80px;
+  font-weight: 500;
+}
+
+.Weather-icon h2 {
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px:
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+#humidity, #wind {
+    font-size: 28px;
+    margin-top: 6px;
+
+}
+.Weather-icon {
+    display: none;
+}
+
+.error{
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    display: none;
+}
