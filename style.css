@@ -122,3 +122,58 @@ button:active{
     margin-top: 20px;
     display: none;
 }
+
+@media (max-width: 600px) {
+  .card {
+    max-width: 95vw;
+    padding: 20px 10px;
+    margin: 40px auto 0;
+    border-radius: 14px;
+  }
+  .search input {
+    font-size: 16px;
+    padding: 8px 14px;
+    height: 44px;
+    border-radius: 22px;
+    margin-right: 8px;
+  }
+  button {
+    width: 44px;
+    height: 44px;
+  }
+  .search button img {
+    width: 12px;
+  }
+  .Weather-icon img {
+    width: 110px;
+    margin-top: 18px;
+  }
+  .Weather-icon h1 {
+    font-size: 48px;
+  }
+  .Weather-icon h2 {
+    font-size: 28px;
+  }
+  .details {
+    flex-direction: column;
+    gap: 18px;
+    padding: 0 5px;
+    margin-top: 30px;
+  }
+  .col {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .col img {
+    width: 28px;
+    margin-right: 8px;
+  }
+  #humidity, #wind {
+    font-size: 20px;
+    margin-top: 4px;
+  }
+  h1 {
+    font-size: 1.5rem;
+    padding: 8px 0;
+  }
+}
